@@ -1,0 +1,23 @@
+# Ignore everything
+*
+# But not these files ...
+!.gitignore
+!*.md
+!*.ipynb
+!*.xml
+!*.csv
+!Pipfile
+!Pipfile.lock
+!*.py
+!*.png
+
+#... even if they are in subdirectories
+!*/
+*.csv
+*.ipynb_checkpoints*
+*.svg
+*.tsv
+*.json
+*.tfevents
+.idea*
+
